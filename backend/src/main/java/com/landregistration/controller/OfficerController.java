@@ -79,8 +79,8 @@ public class OfficerController {
          *
          * Authentication is handled by Spring Boot.
          */
-        String correctUsername = "Prashanth";
-        String correctPassword = "sai@123";
+        String correctUsername = System.getenv("OFFICER_USERNAME");
+        String correctPassword = System.getenv("OFFICER_PASSWORD");
 
         if (!correctUsername.equals(request.username())
                 || !correctPassword.equals(request.password())) {
