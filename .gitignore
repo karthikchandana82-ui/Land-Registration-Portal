@@ -1,0 +1,15 @@
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.*
+
+backend/target/
+backend/.env
+backend/.env.*
+
+backend/uploads/
+uploads/
+
+.vscode/
+.idea/
+/backend/src/main/resources/application.properties
